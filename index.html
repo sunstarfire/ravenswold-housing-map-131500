@@ -208,7 +208,7 @@ async function loadReservedJSON() {
     const response = await fetch('reserved.json', { cache: 'no-store' });
     if (!response.ok) return;
     const data = await response.json();
-    const plots = Array.isArray(data) ? data : (Array.isArray(data.plots) ? data.plots : []);
+    const plots = Array.isArray(data) ? data : (Array.isArray(data.reserved) ? data.reserved : (Array.isArray(data.plots) ? data.plots : []));
     RESERVED = new Set(plots.map(Number).filter(Number.isFinite));
   } catch (error) {
     console.warn('Ravenswold reserved JSON could not be loaded:', error);
