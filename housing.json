@@ -3,10 +3,17 @@
   "neighborhood": "Ravenswold",
   "plots": {
     "0": {
-      "owner": null,
-      "ownerType": 0,
-      "ownerTypeName": "none",
-      "residents": [],
+      "owner": "Ythir-Hellfire",
+      "ownerType": 1,
+      "ownerTypeName": "stranger",
+      "residents": [
+        {
+          "name": "Ythir",
+          "online": false,
+          "type": 0,
+          "typeName": "resident"
+        }
+      ],
       "x": 0.586320281,
       "y": 0.494046867
     },
@@ -329,10 +336,17 @@
       "y": 0.633597076
     },
     "38": {
-      "owner": null,
-      "ownerType": 0,
-      "ownerTypeName": "none",
-      "residents": [],
+      "owner": "Malzin",
+      "ownerType": 2,
+      "ownerTypeName": "friend",
+      "residents": [
+        {
+          "name": "Malzin",
+          "online": false,
+          "type": 0,
+          "typeName": "resident"
+        }
+      ],
       "x": 0.600264668,
       "y": 0.610635281
     },
@@ -431,17 +445,10 @@
       "y": 0.39733386
     },
     "48": {
-      "owner": "Ythir-Hellfire",
-      "ownerType": 1,
-      "ownerTypeName": "stranger",
-      "residents": [
-        {
-          "name": "Ythir",
-          "online": false,
-          "type": 0,
-          "typeName": "resident"
-        }
-      ],
+      "owner": null,
+      "ownerType": 0,
+      "ownerTypeName": "none",
+      "residents": [],
       "x": 0.385340631,
       "y": 0.481260419
     },
@@ -541,6 +548,6 @@
       "y": 0.344542503
     }
   },
-  "updated": "2026-08-16T09:43:47Z",
+  "updated": "2026-08-17T19:14:33Z",
   "version": 1
 }
