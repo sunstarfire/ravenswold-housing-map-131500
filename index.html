@@ -167,7 +167,7 @@ function renderMarkers() {
     b.textContent = p.id;
 
     // x/y come directly from housing.json.
-    // JSON stores normalized coordinates (0..1), so convert to percentages.
+    document.querySelector('h1').textContent='Ravenswold — Plot Map'
     b.style.left = (p.x * 100) + '%';
     b.style.top = (p.y * 100) + '%';
 
@@ -209,7 +209,7 @@ async function loadReservedJSON() {
     if (!response.ok) return;
     const data = await response.json();
     const plots = Array.isArray(data) ? data : (Array.isArray(data.reserved) ? data.reserved : (Array.isArray(data.plots) ? data.plots : []));
-    RESERVED = new Set(plots.map(Number).filter(Number.isFinite));
+    RESERVED=new Set(plots.map(Number));renderMarkers();          
   } catch (error) {
     console.warn('Ravenswold reserved JSON could not be loaded:', error);
     RESERVED = new Set();
