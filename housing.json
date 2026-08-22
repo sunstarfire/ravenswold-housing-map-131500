@@ -150,12 +150,12 @@
       "y": 0.648514986
     },
     "21": {
-      "owner": "Robikenzd-Ragnaros",
+      "owner": "Robiken",
       "ownerType": 1,
       "ownerTypeName": "stranger",
       "residents": [
         {
-          "name": "Robikenzd",
+          "name": "Robiken",
           "online": false,
           "type": 0,
           "typeName": "resident"
@@ -173,12 +173,12 @@
       "y": 0.479529679
     },
     "23": {
-      "owner": "Arciana-Ravencrest",
+      "owner": "Bobot-Emeriss",
       "ownerType": 1,
       "ownerTypeName": "stranger",
       "residents": [
         {
-          "name": "Arciana",
+          "name": "Bobot",
           "online": false,
           "type": 1,
           "typeName": "manager"
@@ -359,10 +359,17 @@
       "y": 0.3315534
     },
     "4": {
-      "owner": null,
-      "ownerType": 0,
-      "ownerTypeName": "none",
-      "residents": [],
+      "owner": "Rellean",
+      "ownerType": 1,
+      "ownerTypeName": "stranger",
+      "residents": [
+        {
+          "name": "Rellean",
+          "online": false,
+          "type": 0,
+          "typeName": "resident"
+        }
+      ],
       "x": 0.291237175,
       "y": 0.352078736
     },
@@ -548,6 +555,6 @@
       "y": 0.344542503
     }
   },
-  "updated": "2026-08-17T19:14:33Z",
+  "updated": "2026-08-22T09:08:43Z",
   "version": 1
 }
