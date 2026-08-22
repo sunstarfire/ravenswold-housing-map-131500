@@ -274,10 +274,17 @@
       "y": 0.398622692
     },
     "32": {
-      "owner": null,
-      "ownerType": 0,
-      "ownerTypeName": "none",
-      "residents": [],
+      "owner": "Rellean",
+      "ownerType": 1,
+      "ownerTypeName": "stranger",
+      "residents": [
+        {
+          "name": "Rellean",
+          "online": false,
+          "type": 0,
+          "typeName": "resident"
+        }
+      ],
       "x": 0.664622605,
       "y": 0.442610145
     },
@@ -359,17 +366,10 @@
       "y": 0.3315534
     },
     "4": {
-      "owner": "Rellean",
-      "ownerType": 1,
-      "ownerTypeName": "stranger",
-      "residents": [
-        {
-          "name": "Rellean",
-          "online": false,
-          "type": 0,
-          "typeName": "resident"
-        }
-      ],
+      "owner": null,
+      "ownerType": 0,
+      "ownerTypeName": "none",
+      "residents": [],
       "x": 0.291237175,
       "y": 0.352078736
     },
@@ -555,6 +555,6 @@
       "y": 0.344542503
     }
   },
-  "updated": "2026-08-22T09:08:43Z",
+  "updated": "2026-08-22T09:22:00Z",
   "version": 1
 }
