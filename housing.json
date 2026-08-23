@@ -173,12 +173,12 @@
       "y": 0.479529679
     },
     "23": {
-      "owner": "Bobot-Emeriss",
+      "owner": "Arciana-Ravencrest",
       "ownerType": 1,
       "ownerTypeName": "stranger",
       "residents": [
         {
-          "name": "Bobot",
+          "name": "Arciana",
           "online": false,
           "type": 1,
           "typeName": "manager"
@@ -555,6 +555,6 @@
       "y": 0.344542503
     }
   },
-  "updated": "2026-08-22T09:22:00Z",
+  "updated": "2026-08-22T10:34:42Z",
   "version": 1
 }
