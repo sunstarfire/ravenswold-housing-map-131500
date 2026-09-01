@@ -3,10 +3,17 @@
   "neighborhood": "Ravenswold",
   "plots": {
     "0": {
-      "owner": null,
-      "ownerType": 0,
-      "ownerTypeName": "none",
-      "residents": [],
+      "owner": "Thesalia-BronzeDragonflight",
+      "ownerType": 1,
+      "ownerTypeName": "stranger",
+      "residents": [
+        {
+          "name": "Thesalia",
+          "online": false,
+          "type": 0,
+          "typeName": "resident"
+        }
+      ],
       "x": 0.586320281,
       "y": 0.494046867
     },
@@ -89,10 +96,17 @@
       "y": 0.491069078
     },
     "17": {
-      "owner": null,
-      "ownerType": 0,
-      "ownerTypeName": "none",
-      "residents": [],
+      "owner": "Kaedalia",
+      "ownerType": 1,
+      "ownerTypeName": "stranger",
+      "residents": [
+        {
+          "name": "Kaedalia",
+          "online": false,
+          "type": 0,
+          "typeName": "resident"
+        }
+      ],
       "x": 0.60959208,
       "y": 0.498262286
     },
@@ -555,6 +569,6 @@
       "y": 0.344542503
     }
   },
-  "updated": "2026-09-01T15:05:00Z",
+  "updated": "2026-09-01T15:57:54Z",
   "version": 1
 }
