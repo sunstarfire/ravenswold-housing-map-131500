@@ -80,10 +80,17 @@
       "y": 0.556502163
     },
     "15": {
-      "owner": null,
-      "ownerType": 0,
-      "ownerTypeName": "none",
-      "residents": [],
+      "owner": "Anumvella",
+      "ownerType": 1,
+      "ownerTypeName": "stranger",
+      "residents": [
+        {
+          "name": "Anumvella",
+          "online": false,
+          "type": 0,
+          "typeName": "resident"
+        }
+      ],
       "x": 0.514207602,
       "y": 0.555528283
     },
@@ -569,6 +576,6 @@
       "y": 0.344542503
     }
   },
-  "updated": "2026-09-01T15:57:54Z",
+  "updated": "2026-09-03T14:47:34Z",
   "version": 1
 }
