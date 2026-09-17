@@ -72,10 +72,17 @@
       "y": 0.534331858
     },
     "14": {
-      "owner": null,
-      "ownerType": 0,
-      "ownerTypeName": "none",
-      "residents": [],
+      "owner": "Indomirex-Silvermoon",
+      "ownerType": 1,
+      "ownerTypeName": "stranger",
+      "residents": [
+        {
+          "name": "Indomirex",
+          "online": false,
+          "type": 0,
+          "typeName": "resident"
+        }
+      ],
       "x": 0.346788943,
       "y": 0.556502163
     },
@@ -490,10 +497,17 @@
       "y": 0.591669559
     },
     "50": {
-      "owner": null,
-      "ownerType": 0,
-      "ownerTypeName": "none",
-      "residents": [],
+      "owner": "Aurrelion-Silvermoon",
+      "ownerType": 1,
+      "ownerTypeName": "stranger",
+      "residents": [
+        {
+          "name": "Aurrelion",
+          "online": false,
+          "type": 0,
+          "typeName": "resident"
+        }
+      ],
       "x": 0.353546441,
       "y": 0.415655077
     },
@@ -576,6 +590,6 @@
       "y": 0.344542503
     }
   },
-  "updated": "2026-09-03T14:47:34Z",
+  "updated": "2026-09-16T13:00:20Z",
   "version": 1
 }
